@@ -5,7 +5,7 @@
 ### Author: Jesse Van Volkinburg
 
 ### Links and Resources
-* [submission PR]()
+* [submission PR](https://github.com/401-advanced-javascript-jv/18-socket.io/pull/1)
 * [travis](https://www.travis-ci.com/401-advanced-javascript-jv/18-socket.io)
 
 
@@ -13,7 +13,6 @@
 #### `.env` requirements
 * `PORT` - Port Number
 * `HOST` - Host name where the server is running
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
 1. `npm run server` - to start the server

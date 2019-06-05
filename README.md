@@ -1,46 +1,33 @@
-# LAB - 
+# LAB - 18
 
-## Project Name
+## Socket.IO-based Application
 
 ### Author: Jesse Van Volkinburg
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR]()
+* [travis](https://www.travis-ci.com/401-advanced-javascript-jv/18-socket.io)
 
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
 * `PORT` - Port Number
+* `HOST` - Host name where the server is running
 * `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+1. `npm run server` - to start the server
+2. `npm run logger` - to start the logger
+3. `npm run client <filename>` - to run the client and modify the provided file
   
 #### Tests
-* How do you run tests?
+* `npm test` to run tests
 * What assertions were made?
+  * Can it read a file?
+  * Can it deal with a bad file?
+  * Can it convert a buffer to uppercase string?
+  * Can it write a file?
 * What assertions need to be / should be made?
+  * Does the server listen?
+  * Does the client connect?
 
-#### UML
-Link to an image of the UML for your application and response to events

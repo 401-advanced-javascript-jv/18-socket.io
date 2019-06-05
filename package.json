@@ -8,7 +8,9 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "eslint": "^5.16.0",
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
   },
   "jest": {
     "testEnvironment": "node"
@@ -23,7 +25,9 @@
     "endOfLine": "lf"
   },
   "scripts": {
-    "start": "node index.js",
+    "server": "node ./server/server.js",
+    "logger": "node ./logger/logger.js",
+    "client": "node ./app/app.js",
     "watch": "nodemon index.js",
     "lint": "eslint '**/*.js'",
     "test": "jest --verbose --coverage",
